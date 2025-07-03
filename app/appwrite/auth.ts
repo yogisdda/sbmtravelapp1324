@@ -66,8 +66,7 @@ export const loginWithGoogle = async () => {
         account.createOAuth2Session(
             OAuthProvider.Google,
           
-            "https://sbmtravelapp1324.vercel.app/",
-  "https://sbmtravelapp1324.vercel.app/404"
+fra.cloud.appwrite.io
         );
     } catch (error) {
         console.error("Error during OAuth2 session creation:", error);
